@@ -1,0 +1,153 @@
+ *, *::before, *::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #ecddb9;
+  color: #272725;
+}
+
+/* Header -------------------------------------------------------*/
+
+a, a:hover {
+  text-decoration: none;
+  font-weight: 600; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    width: 100%;
+    position: fixed;
+}
+
+.header {
+    height: 30%;
+    border-bottom-style: solid;
+
+}
+.site_title {
+    position: relative;
+    float: left;
+    height: 250px;
+    line-height: 250px;
+    padding: 0 155px;
+    font-size: 95px;
+    font-weight: 900;
+    color: ;
+    text-transform: uppercase; }
+
+.dropdown {
+    float: right;
+    margin-right: 20px;
+    position: relative; }
+
+.header_list {
+    float: left;
+    position: relative;
+    margin-top: 160px;
+    display: inline-block;
+    }
+
+.header_list li a {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 30px;
+    height: 30px; }
+    
+.header_list li > a:hover {
+    color: ;
+    background: ;
+    border-radius: 2px; }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    margin-top: 40%;
+}
+
+.col1 {
+    width: 1%;
+}
+
+.col2 {
+    width: 98%;
+}
+
+.col3 {
+    width: 1%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.form_container {
+    margin-bottom: 60px;
+}
+
+input[type=text] {
+    height: 90px;
+    width: 150px;
+    margin-right: 20px;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #ebe9df;
+    color: 	#5f473a;   
+}
+
+/* unvisited link */
+a:link {
+  color: #272725;
+}
+
+/* visited link */
+a:visited {
+  color: #5f473a;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a64d60;
+}
+
+/* selected link */
+a:active {
+  color: #a64d60;
+}
+
+
+.footer {
+	bottom: 0;
+	text-align: center;
+    color: 	#272725;
+    background-color: #ecddb9;
+
+}
+
+
